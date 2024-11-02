@@ -56,6 +56,7 @@ export default StyleSheet.create({
         position: 'absolute', top: 0, left: 0, right: 0, 
         textAlign: 'center',
         backgroundColor: 'cyan',
+        zIndex: 1000, /* Ensure it's on top of other elements */
     },
     iconContainer: {
         borderWidth: 2,
